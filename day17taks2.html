@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Ball1{
+            
+            width: 100px;
+            height: 100px;
+            border-radius: 150px ;
+            background-color: red;
+            animation-name: Ball1;
+            animation-duration: 2s;
+            position:relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes Ball1{
+            0%{left: 0px;top: 0px;
+
+            }
+            10%{
+                top: 500px;
+                background-color:greenyellow;
+            }
+            25%{
+                background-color:orange ;
+                top: 0px;
+            }
+            50%{
+                top: 200px;
+            }
+            75%{
+                background-color: green;
+                top: 0px;
+            }
+           
+            100%{left: 1210px;top: 200px;
+                background-color: blue;
+                
+
+            }
+            
+        }
+        .Ball2{
+            
+            width: 100px;
+            height: 100px;
+            border-radius: 150px ;
+            
+            background-color: orange;
+            animation-name: Ball2;
+            animation-duration: 5s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+        }
+        @keyframes Ball2{
+           0%{left: 1210px;top: 0px;
+
+            }
+           
+            100%{left: 0px;top: 0px;
+
+            }
+        }
+        .Ball3{
+            width: 100px;
+            height: 100px;
+            border-radius: 150px ;
+            
+            background-color: green;
+            animation-name: Ball3;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        @keyframes Ball3{
+            0%{left: 0px;top: 0px;
+
+            }
+            10%{
+                top: 200px;
+            }
+            25%{
+                background-color:orange ;
+                top: 0px;
+            }
+            50%{
+                top: 500px;
+            }
+            75%{
+                background-color: green;
+                top: 0px;
+            }
+           
+            100%{left: 1210px;top: 200px;
+                background-color: blue;
+               
+        }
+    }
+        .Ball4{
+            width: 100px;
+            height: 100px;
+            border-radius: 150px ;
+            
+            background-color: blue;
+            animation-name: Ball4;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+
+        }
+        @keyframes Ball4{
+           0%{top:100px;
+
+           
+        }
+        50%{
+            top:300px;
+        }
+           
+            100%{ bottom:500px;
+
+            }}
+            .main
+            {
+                width:100%;
+                height:100vh;
+                border:5px solid black;
+                position:absolute;
+                top:10px;
+                background-color: bisque;
+            }
+            
+        
+    </style>
+</head>
+<body>
+    
+<div class="main">
+    <center><h2 style="color: green;">MOVING BALLS BY USING ANIMATION</h2></center>
+    <div class="Ball1"></div>
+    <div class="Ball2"></div>
+    <div class="Ball3"></div>
+    <div class="Ball4"></div>
+</div>
+</body>
+</html>
